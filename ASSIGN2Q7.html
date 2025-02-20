@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Employee Registration Form</title>
+    </head>
+    <body>
+    
+        <h1 style="color: red;"><img src="employee.png" width="50"> Employee Registration Form</h1>
+    
+        <form action="submit_form.php" method="post" enctype="multipart/form-data">
+            
+            <!-- Gender Selection -->
+            <label> 
+                <input type="radio" name="gender" value="Mr."> Mr.
+                <input type="radio" name="gender" value="Mrs."> Mrs.
+                <input type="radio" name="gender" value="Ms."> Ms.
+            </label>
+            <br><br>
+    
+            <!-- Personal Information -->
+            <label>First Name</label>
+            <input type="text" name="first_name" placeholder="First Name"><br><br>
+    
+            <label>Last Name</label>
+            <input type="text" name="last_name" placeholder="Last Name"><br><br>
+    
+            <label>Mail Address1</label>
+            <input type="text" name="mail_address1"><br><br>
+    
+            <label>Mail Address2</label>
+            <input type="text" name="mail_address2"><br><br>
+    
+            <label>City</label>
+            <input type="text" name="city"><br><br>
+    
+            <label>State</label>
+            <select name="state">
+                <option>Gujarat</option>
+                <option>Maharashtra</option>
+                <option>Rajasthan</option>
+                <option>Delhi</option>
+            </select><br><br>
+    
+            <label>Zip</label>
+            <input type="text" name="zip"><br><br>
+    
+            <!-- File Upload -->
+            <label>Upload Photo</label>
+            <input type="file" name="photo"><br><br>
+    
+            <label>E-Mail</label>
+            <input type="email" name="email"><br><br>
+    
+            <label>Mobile</label>
+            <input type="tel" name="mobile" placeholder="+91"><br><br>
+    
+            <!-- Language Selection -->
+            <label>Languages known</label><br>
+            <input type="checkbox" name="language" value="Gujarati" > Gujarati<br>
+            <input type="checkbox" name="language" value="Hindi" > Hindi<br>
+            <input type="checkbox" name="language" value="English" > English<br>
+            <input type="checkbox" name="language" value="Marathi"> Marathi<br><br>
+    
+            <!-- Additional Information -->
+            <label>Additional Information</label><br>
+            <textarea name="additional_info" rows="5" cols="40" placeholder="Optional"></textarea><br><br>
+    
+            <!-- Submit and Reset Buttons -->
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+    
+        </form>
+    
+    </body>
+    </html>
+    
