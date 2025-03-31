@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>ConfigServlet</servlet-name>
+    <servlet-class>ConfigServlet</servlet-class>
+    <init-param>
+        <param-name>dbURL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/mydb</param-value>
+    </init-param>
+</servlet>
